@@ -1,0 +1,208 @@
+
+    article{
+        padding: 3% 6%;
+    }
+    section{
+        display: flex!important;
+        width:100%;
+    }
+   .header-element .container-header{
+display:flex;
+justify-content: space-between;
+width:100%;
+
+   } 
+
+   .header-element .container-header header{
+    display: flex;
+    gap:8px;
+    
+   }
+   .container-header{
+    padding: 30px 30px 30px 30px;
+   }
+   .item-navegacion ul{
+    display: flex;
+    gap:32px;
+   }
+   .item-navegacion ul li a , .item-navegacion ul li{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    list-style: none!important;
+
+   }
+   .tituloH1 h1{
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+   .talentos a{
+color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   .talentos a::after{
+content:url("src/row.svg");
+position: relative;
+    top: 7px;
+   }
+   .containerFoto img{
+    max-width: 240px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 58%;
+   }
+   .seccion-informacion{
+    padding:64px 0;
+    flex-direction: column;
+   }
+    .seccion-skill{
+    padding:64px 0;
+    flex-direction: column;
+    
+    }
+     .containerFotoSkill div img{
+        height: 50px;
+        width: fit-content;
+
+   }
+   .conIner{
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    bottom: 0;
+    left: 8px;
+    width: fit-content !important;
+    height: 74px !important;
+    border: none !important;
+   }
+   .containerFotoSkill{
+    display:flex;
+    gap:20px
+   }
+   .containerFotoSkill div{
+border:1px solid black;
+width:200px;
+height: 200px;
+position:relative;
+
+   }
+   .tarjetaProfesional{
+    gap:20px
+   }
+   .tarjetaProfesional div{
+    border:1px solid black;
+    width:200px;
+height: 200px;
+   }
+   .FotoExpProfesional{
+    height: 200px;
+   }
+   .FotoContacto{
+
+   }
+
+   .containerFoRN{
+    width: 100%;
+    height: 500px;
+   }
+
+   .containerFotoForm{
+    width: 100%;
+   }
+
+   .containerFotoForm img{
+    width: 100%;
+    height: 100%;
+   }
+   .formnData{
+    width: 100%;
+    padding: 5%;
+    gap: 20px;
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .LogoSenAlura{
+    overflow: auto;
+   }
+   .Footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: gainsboro;
+    margin-top: 10px;
+   }
+
+   @media screen and (max-width: 480px) {
+   .container-header{
+    width: 100%;
+    flex-direction: column!important;
+   }
+   .header-element .container-header {
+    align-items: center!important;
+   }
+   
+   .item-navegacion{
+    display:none;
+   }
+
+#primer-item{
+    flex-direction: column-reverse!important;
+    padding: 1rem;
+   }
+   .containerFoto{
+    display: flex;
+    justify-content: center;
+   }
+   .tituloH1{
+    text-align: center;
+   }
+   .tituloH1 h1{
+    font-size: 18px;
+    margin-top: 2rem;
+   }
+#N2 , .containerFotoSkill{
+    padding: 1rem;
+}
+
+.tarjetaProfesional div {
+    width: 150px;
+    padding: 1rem;
+}
+
+.container-pro{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.FotoExpProfesional {
+    height: 170px;
+}
+.containerFotoForm{
+    display:none;
+}
+.Footer div h4{
+    text-align: center;
+}
+.container-con{
+    text-align: center; 
+}
+.containerFoto img {
+    max-width: 140px;
+}
+   }
